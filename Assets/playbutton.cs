@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class playbutton : MonoBehaviour
+public class PlayButton : MonoBehaviour
 {
     [SerializeField] private string newGameLevel = "act1";
 
