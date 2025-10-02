@@ -9,27 +9,45 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/act1.unity
+    path: Assets/Scenes/arcade/act1.unity
     guid: a319a1da6beedbe4f9f357ed4cdde368
   - enabled: 1
-    path: Assets/Scenes/tycoon.unity
+    path: Assets/Scenes/arcade/tycoon.unity
     guid: cc0c07689c13ed84699a0e9b16796488
   - enabled: 1
-    path: Assets/Scenes/tables.unity
+    path: Assets/Scenes/arcade/tables.unity
     guid: f3301f801941d434ea48d5acaf983d1f
   - enabled: 1
     path: Assets/Scenes/post shift.unity
     guid: fe2eecc6b0be3474a8ed7a5a0a2fc158
   - enabled: 1
-    path: Assets/Scenes/talk to me.unity
+    path: Assets/Scenes/arcade/talk to me.unity
     guid: 7b4f37fdb0260db4796e3bac61aa7cdc
   - enabled: 1
-    path: Assets/Scenes/popoy's paper theater.unity
+    path: Assets/Scenes/popoy/popoy's paper theater.unity
     guid: 41f07a106ce54df4ca7c14916cc457c3
   - enabled: 1
-    path: Assets/Scenes/perpose.unity
+    path: Assets/Scenes/arcade/perpose.unity
     guid: 8664f0dc5a460284487f39540ef71560
   - enabled: 1
-    path: Assets/Scenes/let me help.unity
+    path: Assets/Scenes/arcade/let me help.unity
     guid: 78f9bc83428af1d4d935d95799a0d801
+  - enabled: 1
+    path: Assets/Scenes/arcade/save file.unity
+    guid: 8afdc8281b708074e99e4393065ccabd
+  - enabled: 1
+    path: Assets/Scenes/intro/intro.unity
+    guid: 9cd61bbc17ad1c3459511e152127cb92
+  - enabled: 1
+    path: Assets/Scenes/intro/intro 2.unity
+    guid: 30d1cbbc88d87b74a965d280c9de7861
+  - enabled: 1
+    path: Assets/Scenes/intro/intro 3.unity
+    guid: 698741e1399609741931fb255333d7ce
+  - enabled: 1
+    path: Assets/Scenes/popoy/stage 1.unity
+    guid: 8ea754f0e5ad24843a2c6a8c34c1f0d1
+  - enabled: 1
+    path: Assets/Scenes/arcade/arcade.unity
+    guid: a145cbe762db0a049929a3800ddd631e
   m_configObjects: {}
