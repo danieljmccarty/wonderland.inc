@@ -50,4 +50,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/arcade/arcade.unity
     guid: a145cbe762db0a049929a3800ddd631e
+  - enabled: 1
+    path: Assets/Scenes/comics/comics.unity
+    guid: 5fc18a05a5523e54ba3e9251e4ea7918
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
