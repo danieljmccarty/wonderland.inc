@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 359.964}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -35}
-  m_SizeDelta: {x: 336.5826, y: 302.0988}
+  m_AnchoredPosition: {x: 543, y: -0}
+  m_SizeDelta: {x: 447.8669, y: 441.9759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305381915
 MonoBehaviour:
@@ -369,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.181}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: -34.957993}
-  m_SizeDelta: {x: 313.2448, y: 307.4682}
+  m_AnchoredPosition: {x: -503, y: 0.7341}
+  m_SizeDelta: {x: 456.6287, y: 438.643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680159812
 MonoBehaviour:
@@ -759,7 +759,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1941791382}
-        m_TargetAssemblyTypeName: IntroButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: PopoysPaperTheater, Assembly-CSharp
         m_MethodName: NewGameButton
         m_Mode: 1
         m_Arguments:
@@ -817,10 +817,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1941791377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10c5e5de3d514444fbd280f2325f67ac, type: 3}
+  m_Script: {fileID: 11500000, guid: e28c5567ac8ed4749b12cd13897dc832, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IntroButton
-  newGameLevel: intro
+  m_EditorClassIdentifier: Assembly-CSharp::PopoysPaperTheater
+  popoyGameLevel: popoy's paper theater
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

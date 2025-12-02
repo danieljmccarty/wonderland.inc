@@ -272,7 +272,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1174619351}
-        m_TargetAssemblyTypeName: PopoysPaperTheater, Assembly-CSharp
+        m_TargetAssemblyTypeName: Stage1Button, Assembly-CSharp
         m_MethodName: NewGameButton
         m_Mode: 1
         m_Arguments:
@@ -330,10 +330,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1174619346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e28c5567ac8ed4749b12cd13897dc832, type: 3}
+  m_Script: {fileID: 11500000, guid: cdc7993b2a15e2947924882561f93cd2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PopoysPaperTheater
-  popoyGameLevel: popoy's paper theater
+  m_EditorClassIdentifier: Assembly-CSharp::Stage1Button
+  newGameLevel: stage 1
 --- !u!1 &1195947232
 GameObject:
   m_ObjectHideFlags: 0

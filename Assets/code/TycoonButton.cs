@@ -7,7 +7,7 @@ public class TycoonButton : MonoBehaviour
 {
     [SerializeField] private string nextGameLevel = "tycoon";
 
-    public void newGameButton()
+    public void loadGameButton()
     {
         SceneManager.LoadScene(nextGameLevel);
     }
