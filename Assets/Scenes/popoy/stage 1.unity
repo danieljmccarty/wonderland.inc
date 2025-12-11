@@ -1061,7 +1061,6 @@ GameObject:
   - component: {fileID: 1639646743}
   - component: {fileID: 1639646742}
   - component: {fileID: 1639646741}
-  - component: {fileID: 1639646745}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1160,103 +1159,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!82 &1639646745
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639646740}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 31b85da6e407dc548837bfa3cbb2d429, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1741130962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1463,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.057598878, g: 0, b: 0.13207549, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.032238692, b: 0.3773585, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1775,10 +1677,38 @@ MonoBehaviour:
   - {fileID: -7317733395129319759, guid: fa1ce65a11b508147989318f109123aa, type: 3}
   - {fileID: 454818487143624918, guid: 8ce4abb5d376d9d4b9a2786409cf5902, type: 3}
   - {fileID: 3634315130987842960, guid: 93753bcdd8ff22e4c8419e220fef76c3, type: 3}
-  - {fileID: 4753180991836827843, guid: 72c98f5d46416ba429a721b5dc9453d3, type: 3}
-  - {fileID: -8683365471959758253, guid: 7e371ea5fad87b84b8619f7b33c39d2f, type: 3}
-  - {fileID: -8683365471959758253, guid: 7e371ea5fad87b84b8619f7b33c39d2f, type: 3}
-  - {fileID: -8683365471959758253, guid: 7e371ea5fad87b84b8619f7b33c39d2f, type: 3}
+  - {fileID: -6338665685540026701, guid: 94bc558529ee2d24289dc63b14ee8d6b, type: 3}
+  - {fileID: -2510454399357999049, guid: e13925e224cd0674b8af1db486824268, type: 3}
+  - {fileID: 6472463172511005069, guid: 48efdf55c8b3b2c4e833ad9d58324fb9, type: 3}
+  - {fileID: -755247114663642733, guid: 6fed06d1f7a3f564485a6a81ba71a195, type: 3}
+  - {fileID: -179945917264929220, guid: aea36c180f57b6642b08db23cc95de1b, type: 3}
+  - {fileID: 8644997057482485982, guid: bb9f276a7a7b8ce42b259561d6056253, type: 3}
+  - {fileID: 21300000, guid: e5e93bd923256cd448a77541aa91f206, type: 3}
+  - {fileID: 3800794768534877596, guid: ef28a780091cb1841acc166276d9b12a, type: 3}
+  - {fileID: -432389711032954671, guid: 6c92d99f39d63bf46b774228769a17a8, type: 3}
+  - {fileID: 7085404348038816577, guid: b26ced962c5e58d4795dbb60da1526bb, type: 3}
+  - {fileID: 1341534904150802124, guid: 3c26cd16bee3bd34aa853716979329c1, type: 3}
+  - {fileID: -4917945967793361542, guid: a22c846249c062943aef2b4896019600, type: 3}
+  - {fileID: 4984990336380882571, guid: edc982151b6ff204181ab1e81da1109c, type: 3}
+  - {fileID: 21300000, guid: c841afb0fda13e34caa8649edb780bae, type: 3}
+  - {fileID: -7032405034377793065, guid: b84e82519c859f046a04f617bb1866fb, type: 3}
+  - {fileID: 1746020089089208795, guid: 6e44bd4b1dcad904989a48bee54797e4, type: 3}
+  - {fileID: -8161199606730834641, guid: f607cd4682e05f846a298541932cf30f, type: 3}
+  - {fileID: 383327581735961598, guid: 1ab13edf37657b84397c674a6f62c835, type: 3}
+  - {fileID: 373233811291640459, guid: 3d411564ffda8184bb2ba41fc7711b9c, type: 3}
+  - {fileID: -6695059385342032157, guid: 7e390c91d940dbf499694c842d092b7e, type: 3}
+  - {fileID: 5852421643507426332, guid: 43b8fdeb65ca6b345b217cfee8c4001a, type: 3}
+  - {fileID: -5129550761542203574, guid: c02d4ad07d335ed45a777468db84884f, type: 3}
+  - {fileID: 4704810115799499892, guid: bec783eaff2afcc4a8faab61f36d28b8, type: 3}
+  - {fileID: -6197700362029360250, guid: 572975bc7fa613f41b040adea62053ba, type: 3}
+  - {fileID: -7618726164144374639, guid: 22663d4649f45d9479982e3465be359b, type: 3}
+  - {fileID: 5416741737615846254, guid: 3aeeccdfbcb6a4b4a906874ea45e3d8d, type: 3}
+  - {fileID: 5087921318382471335, guid: 3948cbf2ccc0e844185c4a259fe7bf57, type: 3}
+  - {fileID: -1723911030645609553, guid: 319d7c5af70e54d469730e815aefd9ab, type: 3}
+  - {fileID: 8063321099681325721, guid: dcd2351c58b9d1046a3ce5ef192966d0, type: 3}
+  - {fileID: 5711136931059508704, guid: d2a009edb3b810e458ba433eff3a5910, type: 3}
+  - {fileID: 2570251503043044220, guid: cc586a6e8456d9446881a45145472e13, type: 3}
+  - {fileID: 8627805573177775019, guid: f6f38da2c0c337446b479412242658a7, type: 3}
 --- !u!4 &1992509878
 Transform:
   m_ObjectHideFlags: 0

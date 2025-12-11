@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
     public Sprite[] sceneSprites;
     private int currentSceneIndex = 0;
 
+
+
     
     void Start()
     {
@@ -51,7 +53,56 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 10;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
-
+        else if (currentSceneIndex == 10)
+        {
+            currentSceneIndex = 13;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 8)
+        {
+            currentSceneIndex = 14;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 14)
+        {
+            currentSceneIndex = 15;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 15)
+        {
+            currentSceneIndex = 20;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 9)
+        {
+            currentSceneIndex = 21;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 21) 
+        {
+            currentSceneIndex = 22;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 22) 
+        {
+            currentSceneIndex = 23;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 12) 
+        {
+            currentSceneIndex = 30;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 30) 
+        {
+            currentSceneIndex = 31;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 31) 
+        {
+            currentSceneIndex = 32;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
     }
     public void GoBack ()
     {
@@ -85,6 +136,56 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 7;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
+        else if (currentSceneIndex == 13)
+        {
+            currentSceneIndex = 10;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 14)
+        {
+            currentSceneIndex = 8;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 15)
+        {
+            currentSceneIndex = 14;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 20)
+        {
+            currentSceneIndex = 15;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 21)
+        {
+            currentSceneIndex = 9;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 22)
+        {
+            currentSceneIndex = 21;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 23)
+        {
+            currentSceneIndex = 22;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 30)
+        {
+            currentSceneIndex = 12;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 31) 
+        {
+            currentSceneIndex = 30;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 32) 
+        {
+            currentSceneIndex = 31;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
     }
     public void GoLeft ()
     {
@@ -108,6 +209,101 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 7;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
+        else if (currentSceneIndex == 10)
+        {
+            currentSceneIndex = 11;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 12)
+        {
+            currentSceneIndex = 10;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 14)
+        {
+            currentSceneIndex = 16;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 17)
+        {
+            currentSceneIndex = 14;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 15)
+        {
+            currentSceneIndex = 19;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 18)
+        {
+            currentSceneIndex = 15;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 24)
+        {
+            currentSceneIndex = 21;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 21)
+        {
+            currentSceneIndex = 25;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 26)
+        {
+            currentSceneIndex = 22;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 22)
+        {
+            currentSceneIndex = 27;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 27)
+        {
+            currentSceneIndex = 22;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 28)
+        {
+            currentSceneIndex = 23;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 23)
+        {
+            currentSceneIndex = 29;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 30)
+        {
+            currentSceneIndex = 33;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 31)
+        {
+            currentSceneIndex = 35;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 32)
+        {
+            currentSceneIndex = 37;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 34)
+        {
+            currentSceneIndex = 30;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 36)
+        {
+            currentSceneIndex = 31;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 38)
+        {
+            currentSceneIndex = 32;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
     }
     public void GoRight ()
     {
@@ -129,6 +325,96 @@ public class GameManager : MonoBehaviour
         else if (currentSceneIndex == 8)
         {
             currentSceneIndex = 7;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 10)
+        {
+            currentSceneIndex = 12;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 11)
+        {
+            currentSceneIndex = 10;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 14)
+        {
+            currentSceneIndex = 17;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 16)
+        {
+            currentSceneIndex = 14;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 15)
+        {
+            currentSceneIndex = 18;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 19)
+        {
+            currentSceneIndex = 15;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 21)
+        {
+            currentSceneIndex = 24;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 25)
+        {
+            currentSceneIndex = 21;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 22)
+        {
+            currentSceneIndex = 26;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 27)
+        {
+            currentSceneIndex = 22;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 29)
+        {
+            currentSceneIndex = 23;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 23)
+        {
+            currentSceneIndex = 28;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 33)
+        {
+            currentSceneIndex = 30;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 35)
+        {
+            currentSceneIndex = 31;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 37)
+        {
+            currentSceneIndex = 32;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 30)
+        {
+            currentSceneIndex = 34;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 31)
+        {
+            currentSceneIndex = 36;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 32)
+        {
+            currentSceneIndex = 38;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
     }
