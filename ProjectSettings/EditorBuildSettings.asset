@@ -53,5 +53,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/comics/comics.unity
     guid: 5fc18a05a5523e54ba3e9251e4ea7918
+  - enabled: 1
+    path: Assets/Scenes/wonderland.com/wonderland.com.unity
+    guid: 9d2287303b0830442b57c5cac7181ab9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

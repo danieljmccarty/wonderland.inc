@@ -16,10 +16,12 @@ public class GameManager : MonoBehaviour
     }
 
 
+
     void Update()
     {
         
     }
+
 
     public void GoForward ()
     {
@@ -103,6 +105,16 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 32;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
+        else if ( currentSceneIndex == 11)
+        {
+            currentSceneIndex = 39;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if ( currentSceneIndex == 41)
+        {
+            currentSceneIndex = 42;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
     }
     public void GoBack ()
     {
@@ -184,6 +196,16 @@ public class GameManager : MonoBehaviour
         else if (currentSceneIndex == 32) 
         {
             currentSceneIndex = 31;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 39)
+        {
+            currentSceneIndex = 11;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 42)
+        {
+            currentSceneIndex = 41;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
     }
@@ -304,6 +326,26 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 32;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
+        else if (currentSceneIndex == 40)
+        {
+            currentSceneIndex = 39;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 41)
+        {
+            currentSceneIndex = 40;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 42)
+        {
+            currentSceneIndex = 43;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 43)
+        {
+            currentSceneIndex = 44;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
     }
     public void GoRight ()
     {
@@ -417,5 +459,30 @@ public class GameManager : MonoBehaviour
             currentSceneIndex = 38;
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         }
+        else if (currentSceneIndex == 39)
+        {
+            currentSceneIndex = 40;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 40)
+        {
+            currentSceneIndex = 41;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 43)
+        {
+            currentSceneIndex = 42;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+        else if (currentSceneIndex == 44)
+        {
+            currentSceneIndex = 43;
+            sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
+        }
+    }
+
+    public void enemy ()
+    {
+
     }
 }

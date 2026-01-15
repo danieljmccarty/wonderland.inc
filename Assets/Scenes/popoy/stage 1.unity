@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 112363144}
   - component: {fileID: 112363143}
   - component: {fileID: 112363142}
+  - component: {fileID: 112363145}
   m_Layer: 5
   m_Name: off
   m_TagString: Untagged
@@ -320,7 +321,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 112363143}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 112363145}
+        m_TargetAssemblyTypeName: PostShiftBtn, Assembly-CSharp
+        m_MethodName: newGameButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &112363143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +372,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112363140}
   m_CullTransparentMesh: 1
+--- !u!114 &112363145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112363140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64890d7bc096e11469c56cbfa1f5e221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PostShiftBtn
+  postGameLevel: post shift
 --- !u!1 &605720261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,6 +1735,12 @@ MonoBehaviour:
   - {fileID: 5711136931059508704, guid: d2a009edb3b810e458ba433eff3a5910, type: 3}
   - {fileID: 2570251503043044220, guid: cc586a6e8456d9446881a45145472e13, type: 3}
   - {fileID: 8627805573177775019, guid: f6f38da2c0c337446b479412242658a7, type: 3}
+  - {fileID: 4957226499286268211, guid: 72149a57d3b803640a99ce686789769c, type: 3}
+  - {fileID: -1735372484934142243, guid: f89d82bf7e0e6f8429a674e9812ffc86, type: 3}
+  - {fileID: 4379155268092701127, guid: 5dcd6535c66528547b7289b903aa3af8, type: 3}
+  - {fileID: -2803310001077914612, guid: 0aa614a9d15e47449ba1366efd24452c, type: 3}
+  - {fileID: 5020523352694167886, guid: 3a92f7dc1e78e1248a7d99a0d4d4c5fe, type: 3}
+  - {fileID: -8683365471959758253, guid: 7e371ea5fad87b84b8619f7b33c39d2f, type: 3}
 --- !u!4 &1992509878
 Transform:
   m_ObjectHideFlags: 0
