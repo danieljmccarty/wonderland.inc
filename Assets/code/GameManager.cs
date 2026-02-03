@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -481,7 +482,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void enemy ()
+    public void enemy() 
+    {
+       currentSceneIndex =0 ;
+    }
+
+    public void mail() 
     {
 
     }

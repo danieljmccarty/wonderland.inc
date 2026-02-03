@@ -2367,7 +2367,6 @@ GameObject:
   - component: {fileID: 1763527695}
   - component: {fileID: 1763527694}
   - component: {fileID: 1763527693}
-  - component: {fileID: 1763527696}
   m_Layer: 5
   m_Name: wonderland.com
   m_TagString: Untagged
@@ -2439,9 +2438,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763527696}
+      - m_Target: {fileID: 1763527691}
         m_TargetAssemblyTypeName: WonderlandCom, Assembly-CSharp
-        m_MethodName: NewGameButton
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2489,19 +2488,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763527691}
   m_CullTransparentMesh: 1
---- !u!114 &1763527696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763527691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc3a810c8a811d4aaa7b1e370352a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WonderlandCom
-  newGameLevel: wonderland.com
 --- !u!1 &1777346365
 GameObject:
   m_ObjectHideFlags: 0
