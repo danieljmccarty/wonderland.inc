@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -50,8 +52,10 @@ public class GameManager : MonoBehaviour
                 TheDob();
                 break;
         }
+        StartCoroutine(GameOverSequence());
     }
- public void PlayAudio()
+
+    public void PlayAudio()
     {
         int randomEnemyIndex = Random.Range(0, enemySound.Length);
         switch (randomEnemyIndex)
@@ -69,7 +73,8 @@ public class GameManager : MonoBehaviour
                 TheDob();
                 break;
         }
-    } 
+
+    }
     public void TheSuit()
     {
         sceneSpriteRenderer.sprite = enemySprites[0];
@@ -78,6 +83,8 @@ public class GameManager : MonoBehaviour
         hasLoud = false;
         hasDob = false;
         enemyNoiseSource.PlayOneShot(enemySound[0]);
+
+
     }
     public void TheLost()
     {
@@ -108,14 +115,24 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
-        // if enemy is not dealt with in time, game over
+        gameOver = true;
+        SceneManager.LoadScene("Game Over");
     }
 
-  
+    IEnumerator GameOverSequence()
+    {
+        //gameOver = true;
+        yield return new WaitForSeconds(5f);
+        if (hasSuit || hasDob || hasLost || hasLoud)
+        {
+            GameOver();
+        }
+
+    }
 
     public void Restartcams()
     {
-        if(hasDob) return; // change to play error noise
+        if (hasDob) return; // change to play error noise
         if (hasLost) return; // change to play error noise
         if (hasLoud) return; // change to play error noise
 
@@ -128,6 +145,7 @@ public class GameManager : MonoBehaviour
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
             hasSuit = false;
             Invoke("PlayAudio", Random.Range(20f, 30f));
+            StopAllCoroutines();
         }
         else
         {
@@ -151,6 +169,7 @@ public class GameManager : MonoBehaviour
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
             hasLost = false;
             Invoke("PlayAudio", Random.Range(20f, 30f));
+            StopAllCoroutines();
         }
         else
         {
@@ -168,6 +187,7 @@ public class GameManager : MonoBehaviour
             sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
             hasDob = false;
             Invoke("PlayAudio", Random.Range(20f, 30f));
+            StopAllCoroutines();
         }
         else
         {
@@ -180,6 +200,8 @@ public class GameManager : MonoBehaviour
         if (hasSuit) return; // change to play error noise
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
+
+        StopAllCoroutines();
 
         if (currentSceneIndex == 0)
         {
@@ -293,6 +315,8 @@ public class GameManager : MonoBehaviour
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
 
+        StopAllCoroutines();
+
         if (currentSceneIndex == 1)
         {
             currentSceneIndex = 0;
@@ -404,6 +428,8 @@ public class GameManager : MonoBehaviour
         if (hasSuit) return; // change to play error noise
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
+
+        StopAllCoroutines();
 
         if (currentSceneIndex == 2)
         {
@@ -541,6 +567,8 @@ public class GameManager : MonoBehaviour
         if (hasSuit) return; // change to play error noise
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
+
+        StopAllCoroutines();
 
         if (currentSceneIndex == 2) // CURRENT SCENE
         {
