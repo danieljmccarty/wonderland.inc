@@ -18,12 +18,13 @@ public class GameManager : MonoBehaviour
 
 
 
+
     void Start()
     {
         currentSceneIndex = 0;
         sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
         Invoke("SpawnEnemy", Random.Range(20f, 30f));
-
+        StartCoroutine(GameCompleteSequence());
     }
 
 
@@ -74,6 +75,12 @@ public class GameManager : MonoBehaviour
                 break;
         }
 
+    }
+
+    public void StopAudio()
+    {
+        if (hasSuit || hasDob || hasLost || hasLoud)
+        enemyNoiseSource.Stop();
     }
     public void TheSuit()
     {
@@ -128,6 +135,12 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
 
+    }
+
+    IEnumerator GameCompleteSequence()
+    {
+        yield return new WaitForSeconds(360f);
+        SceneManager.LoadScene("shift complete");
     }
 
     public void Restartcams()
