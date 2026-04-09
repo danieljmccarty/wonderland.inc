@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 471879625}
   - component: {fileID: 471879624}
   m_Layer: 5
-  m_Name: mouthman.pdf
+  m_Name: neonhatter.pdf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277.7, y: -175}
+  m_AnchoredPosition: {x: 181.24, y: -187.34}
   m_SizeDelta: {x: 414.5764, y: 432.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471879624
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4275725947820794333, guid: c65d21d964db7d44185118c9a315a424, type: 3}
+  m_Sprite: {fileID: 374647904848334423, guid: f214ab3bc30a23945bade76d77f3c8d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: hattersuit .pdf
+  m_text: jackson.M.hattersuit .pdf
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: saddude.pdf
+  m_text: themadhatters.pdf
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.5362549, z: 0, w: 0}
+  m_margin: {x: 0, y: 102.460144, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 1181613748}
   - component: {fileID: 1181613747}
   m_Layer: 5
-  m_Name: saddude.pdf
+  m_Name: themadhatters.pdf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,7 +1089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 170.91, y: -175}
+  m_AnchoredPosition: {x: -286.09, y: -187.34}
   m_SizeDelta: {x: 417.4529, y: 432.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181613747
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5466014717513463285, guid: 7bedd88e1277c7a428d405482c9936d4, type: 3}
+  m_Sprite: {fileID: -2880698912111910753, guid: 58a880d541d444b45903466d4bfde569, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1210,7 +1210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 649, y: -175}
+  m_AnchoredPosition: {x: 649, y: -187.34}
   m_SizeDelta: {x: 382.9343, y: 432.6827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1209096145
@@ -2186,7 +2186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 374647904848334423, guid: f214ab3bc30a23945bade76d77f3c8d6, type: 3}
+  m_Sprite: {fileID: -185778184570129598, guid: 2016482b919463e4b9c241b7f7236926, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2238,8 +2238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10, y: 19.9607}
-  m_SizeDelta: {x: 0, y: -39.9225}
+  m_AnchoredPosition: {x: 0, y: 19.960999}
+  m_SizeDelta: {x: 0, y: -39.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880728368
 MonoBehaviour:
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: neonsuit.pdf
+  m_text: cheshirethecat.pdf
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2327,7 +2327,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 172.41693, z: 0, w: 394.06927}
+  m_margin: {x: 0, y: 422.64047, z: 0, w: 346.72964}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: mouthman.pdf
+  m_text: neonhatter.pdf
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2464,7 +2464,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 122.93768, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.10620117, z: 0, w: 253.50311}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
