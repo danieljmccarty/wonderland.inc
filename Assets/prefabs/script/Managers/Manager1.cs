@@ -177,7 +177,7 @@ public class Manager1 : MonoBehaviour
     public void GameOver()
     {
         gameOver = true;
-        SceneManager.LoadScene("Game Over 1");
+        SceneManager.LoadScene("gameover 1");
     }
 
 
