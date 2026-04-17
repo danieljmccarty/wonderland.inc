@@ -28,7 +28,7 @@ public class Manager1 : MonoBehaviour
     {
         currentSceneIndex = 0;
         sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
-        Invoke("SpawnEnemy", Random.Range(30f, 40f));
+        Invoke("SpawnEnemy", Random.Range(20f, 30f));
         InvokeRepeating("TimeUpdate", 0f, 60f);
 
     }

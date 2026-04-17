@@ -129,6 +129,9 @@ EditorBuildSettings:
     path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 7 complete 6.unity
     guid: a09967d914ddda24f9e014ff933bdeb4
   - enabled: 1
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/test shift complete.unity
+    guid: 16d93b166721b484db5e17b336be3637
+  - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/tour day.unity
     guid: 1ebdf9805f3006147863c722948234d8
   - enabled: 1

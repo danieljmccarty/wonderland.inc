@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: it apears that the state of the art Hatter suit has been acting up, if
+  m_text: it appears that the state of the art Hatter suit has been acting up, if
     you see or hear any problems with the hatter suit press the reset show to lure
     him back stage.
   m_isRightToLeft: 0
@@ -2010,7 +2010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ther has been problems with the music speekers around the resort, if you
+  m_text: there has been problems with the music speekers around the resort, if you
     see or hear any electronic disterbance press the power button to shut down the
     power and alert D.O.B.
   m_isRightToLeft: 0
@@ -2105,7 +2105,7 @@ GameObject:
   - component: {fileID: 1941442995}
   - component: {fileID: 1941442994}
   m_Layer: 5
-  m_Name: off (1)
+  m_Name: mascot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
