@@ -2533,7 +2533,7 @@ MonoBehaviour:
   - {fileID: 4275725947820794333, guid: c65d21d964db7d44185118c9a315a424, type: 3}
   - {fileID: -659908622797321735, guid: 7c0ade26d0a1500438fd4a6b0c91f4bf, type: 3}
   - {fileID: 4538552409490875797, guid: 1b04bd483fd3eb648a419cfce90c80c0, type: 3}
-  - {fileID: 4244366036614196869, guid: c94e2c0d88d7dc2439f91079e0b267ff, type: 3}
+  - {fileID: -3998002076775382802, guid: 56a569025087d9a43a333609a75c3dd4, type: 3}
   enemySound:
   - {fileID: 8300000, guid: 3f272f56c28ff1c44b8ff506fc385357, type: 3}
   - {fileID: 8300000, guid: 1f989afbb5c543a478074c049bed22e2, type: 3}

@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -28,7 +29,7 @@ public class Manager1 : MonoBehaviour
     {
         currentSceneIndex = 0;
         sceneSpriteRenderer.sprite = sceneSprites[currentSceneIndex];
-        Invoke("SpawnEnemy", Random.Range(20f, 30f));
+        Invoke("SpawnEnemy", Random.Range(50f, 60f));
         InvokeRepeating("TimeUpdate", 0f, 60f);
 
     }
@@ -103,9 +104,11 @@ public class Manager1 : MonoBehaviour
 
     public void StopAudio()
     {
-        if (hasSuit || hasDob || hasLost || hasLoud)
-            enemyNoiseSource.Stop();
+
+       
     }
+
+
     public void TheSuit()
     {
         sceneSpriteRenderer.sprite = enemySprites[0];
@@ -270,7 +273,7 @@ public class Manager1 : MonoBehaviour
 
     public void GoForward()
     {
-        if (hasSuit) return; // change to play error noise
+       
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
 
@@ -389,7 +392,7 @@ public class Manager1 : MonoBehaviour
     }
     public void GoBack()
     {
-        if (hasSuit) return; // change to play error noise
+       
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
 
@@ -509,7 +512,7 @@ public class Manager1 : MonoBehaviour
     }
     public void GoLeft()
     {
-        if (hasSuit) return; // change to play error noise
+       
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
 
@@ -658,7 +661,7 @@ public class Manager1 : MonoBehaviour
     }
     public void GoRight()
     {
-        if (hasSuit) return; // change to play error noise
+        
         if (hasLost) return; // change to play error noise
         if (hasDob) return; // change to play error noise
 

@@ -36,14 +36,8 @@ EditorBuildSettings:
     path: Assets/prefabs/Scenes/arcade/save file.unity
     guid: 8afdc8281b708074e99e4393065ccabd
   - enabled: 1
-    path: Assets/prefabs/Scenes/intro/intro.unity
+    path: Assets/prefabs/Scenes/intro/cut scene 1.unity
     guid: 9cd61bbc17ad1c3459511e152127cb92
-  - enabled: 1
-    path: Assets/prefabs/Scenes/intro/intro 2.unity
-    guid: 30d1cbbc88d87b74a965d280c9de7861
-  - enabled: 1
-    path: Assets/prefabs/Scenes/intro/intro 3.unity
-    guid: 698741e1399609741931fb255333d7ce
   - enabled: 1
     path: Assets/prefabs/Scenes/arcade/arcade.unity
     guid: a145cbe762db0a049929a3800ddd631e
@@ -111,22 +105,22 @@ EditorBuildSettings:
     path: Assets/prefabs/Scenes/wonderland.EXE/Levels/stage 1.unity
     guid: 2cdfa9fb0cc4c1e4facf845a97b9c3f8
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 3 complete 2.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 3 complete.unity
     guid: a6f8046aaf6d30c408fee7d5ecf0d4f5
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 2 complete 1.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 2 complete.unity
     guid: 569353eea8062a848ae03ce6b2cc0c6e
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 4 complete 3.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 4 complete.unity
     guid: 1c95962a06c5e654ca4795867e4f324e
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 5 complete 4.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 5 complete.unity
     guid: 80d00dda274be934aa127fedf5360c23
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 6 complete 5.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 6 complete.unity
     guid: cc9387e2916d714428327d7776b3eeab
   - enabled: 1
-    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 7 complete 6.unity
+    path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/shift 7 complete.unity
     guid: a09967d914ddda24f9e014ff933bdeb4
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/shift complete/test shift complete.unity
@@ -139,21 +133,21 @@ EditorBuildSettings:
     guid: f74dadbe6c8157e4aa7ad7ee34dd182f
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 2.unity
-    guid: 3aed243b1f003004eab451b1903f546e
+    guid: ed9fcbb1e56d0a84a86d30c0451ed910
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 3.unity
-    guid: f5e76c4070685244d93a9225b3828ae2
+    guid: 6de47bc20a5e02f40a9cd7539f331230
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 4.unity
-    guid: 2a06d7f63a3f71146a7f28a926a44ace
+    guid: 9ce07343a5cee2e42a9afdbe2c4cd024
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 5.unity
-    guid: 8b33ca80ed0be1f45a5f45c336c963f5
+    guid: 82e8f4b7f718e3745b67f3a6c6b1713c
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 6.unity
-    guid: b6a592e382de38246b83ee2401c98c71
+    guid: 1a687e76acc29c14db5a445e2321f4cc
   - enabled: 1
     path: Assets/prefabs/Scenes/wonderland.EXE/game over/gameover 7.unity
-    guid: 292c1159851f2fa499cb36610c8e5cba
+    guid: 1c3f0fe53ea0ad44493e0dcd74db2493
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
